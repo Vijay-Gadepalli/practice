@@ -35,14 +35,26 @@
 		<li>UK</li>
 	</ol>
 	
-	<form>
+	<form action="https://google.com" method="post">
 		First Name:<br>
-		<input type="text" name="First Name">
+		<input type="text" name="First Name"><br>
 		Last Name:<br>
-		<input type="text" name="Last Name">
+		<input type="text" name="Last Name"><br>
 		Gender<br>
-		<input type="radio" name="Male" value="male">
-		<input type="radio" name="Female" value="female"
+		Male<input type="radio" name="Gender" value="male"><br>
+		Female<input type="radio" name="Gender" value="female"><br>
+		Month<br><select name="month">
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+		</select><br>
+		<textarea name="message" style="width:200px;height=100px">vijay</textarea><br>
+		<input type="checkbox" name="vehicle" value="car">Car<br>
+		
+
+		<input type="submit" value="Submit"><br>
+		<button type="button" onclick="alert('Practice')">Check me</button>
+
 	 </form>		
 </body>
 </html>
