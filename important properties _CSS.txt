@@ -1,0 +1,99 @@
+======Background=======
+color
+image
+repeat
+attachment
+position
+*******************************************************
+
+=========border=============
+style-dotted,dashed,solid,inset,outset,none,hidden,double,groove,ridge
+width
+color
+radius
+******************************************************
+
+============margins============
+top
+bottom
+left
+right
+
+can be inherited
+
+***********************************************
+================padding===========
+top
+bottom
+left
+right
+
+can be inherited
+box-sizing
+***************************************************
+
+==================hight/width==============
+height:px
+width:px,em
+max-width:px
+****************************************************
+=============outline=============
+style
+width
+color
+offset
+*******************************************************
+================text=======
+color
+align
+decoration
+spacing
+transform:upercase
+indent:50px space
+direction:rtl
+shadow
+line-height
+letter-spacing
+word-spacing:hrzntl,vertical,color
+***************************************************************************
+=====================font=============================
+family
+style
+size
+weight
+variant
+********************************************************
+=========================link================
+follow the same order.....
+link
+visited
+hover
+active
+for link to diplay as button...add padding..background color...no decoration....and display properties
+*************************************************************
+=======================list=============
+list-style-type
+l-s-image:url("")
+l-s-position:inside/outside
+pading,margin for the list items.....etc
+************************************************************
+===============Tables=======(most important)==================
+border-collapse:collapse
+table height width for table
+height for the TH
+verical-align:bottom;
+table padding...horizontal dividers-->border-bottom
+tr:hover{background color:xxxx;}
+striped tables(zebra stripped)-->tr:nth-child(even/odd){bgcolor;}
+responsive--> add this one<div style="overflow-x:auto;">
+
+
+
+
+
+
+
+
+
+
+

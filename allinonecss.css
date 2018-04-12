@@ -1,0 +1,19 @@
+body{
+background-color:grey;
+background-image:url("C:/Users/512528/Desktop/Vijay_Personal/HTML Practice/Images/sceneries.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:right
+}
+
+td{
+border-style:solid;
+border-width:2px;
+border-color:red;
+border-radius:5px;
+}
+
+th{
+border:dashed 5px black;
+}
+
